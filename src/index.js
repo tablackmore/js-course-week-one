@@ -1,12 +1,3 @@
-const test = 'hello'
+import 'dotenv/config'
 
-function testFunc(a) {
-  if (a) {
-    return 1
-  }
-  return 2
-}
-
-testFunc(test)
-
-console.log(test)
+console.log(process.env.PORT || 8080)
