@@ -8,7 +8,7 @@
     "node": "16.x"
   },
   "scripts": {
-    "start": "node ./src/index.js",
+    "start": "node  --es-module-specifier-resolution=node ./src/index.js",
     "lint": "npx eslint ./src/**/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
